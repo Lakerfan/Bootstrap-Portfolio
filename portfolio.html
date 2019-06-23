@@ -13,8 +13,11 @@
       </head>
 
 <body>
-
+    <div class="background">
   <header id="masthead">
+      $(document).ready(function(){
+        $('.header').height($(window).height());
+      })
     <div class="container">
       <a href="index.html" id="logo">Derek Bennett</a>
       <!--Below are the Bootstrap changes-->
